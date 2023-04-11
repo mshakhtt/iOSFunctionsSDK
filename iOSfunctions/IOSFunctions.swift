@@ -71,9 +71,9 @@ public class IOSFunctions {
         }
     }
     
-    public func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
-        LoginManager.shared.retrieveStoredCredentials()
-    }
+//    public func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
+//        LoginManager.shared.retrieveStoredCredentials()
+//    }
     
     // MARK: - UserManager
     

@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "iOSfunctions/*.{swift,h,m}"
+  spec.source_files  = "iOSfunctions/**/*.{swift,h,m}"
   # spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.0"
 
@@ -134,5 +134,8 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
   spec.dependency 'SharedWebCredentials'
+  spec.dependency 'RxDataSources'
+  spec.dependency 'Connectivity'
+  spec.dependency 'AFNetworking'
 
 end

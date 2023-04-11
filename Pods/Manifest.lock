@@ -26,7 +26,6 @@ PODS:
   - RxRelay (6.2.0):
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
-  - SharedWebCredentials (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
@@ -34,7 +33,6 @@ DEPENDENCIES:
   - RxCocoa
   - RxDataSources
   - RxSwift (= 6.2.0)
-  - SharedWebCredentials (from `https://github.com/ostapvisualise/SharedWebCredentials.git`)
 
 SPEC REPOS:
   trunk:
@@ -46,15 +44,6 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
 
-EXTERNAL SOURCES:
-  SharedWebCredentials:
-    :git: https://github.com/ostapvisualise/SharedWebCredentials.git
-
-CHECKOUT OPTIONS:
-  SharedWebCredentials:
-    :commit: e1770284617d163919882bb6848db9dd79c3dcfc
-    :git: https://github.com/ostapvisualise/SharedWebCredentials.git
-
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   Connectivity: 14a4d92f56496ed38ca3d90c0b59638b5a7e3d49
@@ -63,8 +52,7 @@ SPEC CHECKSUMS:
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
-  SharedWebCredentials: a75dbb1c1597776bfbee264937156b268351ff5f
 
-PODFILE CHECKSUM: 3229ecc8103d99b3ba4e30891141440064aa716d
+PODFILE CHECKSUM: 2f093a43d4bca829d86ef1013abc0bf3eb76c683
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

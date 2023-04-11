@@ -10,7 +10,6 @@ target 'iOSfunctions' do
   pod 'AFNetworking', '~> 4.0'
   pod 'RxSwift', '6.2.0'
   pod 'RxCocoa'
-  pod 'SharedWebCredentials', :git => 'https://github.com/ostapvisualise/SharedWebCredentials.git'
   pod 'RxDataSources'
   pod 'Connectivity'
   

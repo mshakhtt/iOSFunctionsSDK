@@ -5,8 +5,7 @@
 //  Created by Shandor Baloh on 27.03.2023.
 //
 
-import Foundation
-import SharedWebCredentials
+import UIKit
 
 public class IOSFunctions {
     

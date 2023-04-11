@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "iOSFunctionsSDK"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A framework to encapsulate core functions of YouMawo and OneOfOne projects."
 
   # This description is used to generate tags and improve search results.

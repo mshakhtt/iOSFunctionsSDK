@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SharedWebCredentials
 
 public class LoginManager: NSObject {
     
@@ -104,14 +105,14 @@ public class LoginManager: NSObject {
         }
     }
     
-   //    func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
-   //        var storedCredential: SharedWebCredentials.Credential?
-   //        Store.get { (credential, error) in
-   //            guard let credential = credential else { return }
-   //            storedCredential = credential
-   //        }
-   //        return storedCredential
-   //    }
+    func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
+        var storedCredential: SharedWebCredentials.Credential?
+//        Store.get { (credential, error) in
+//            guard let credential = credential else { return }
+//            storedCredential = credential
+//        }
+        return storedCredential
+    }
     
     private func validateLoginResult(data: Data) -> Bool {
         let endCustomerRole = "end_customer"

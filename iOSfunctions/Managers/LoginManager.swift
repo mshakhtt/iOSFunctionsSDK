@@ -95,7 +95,7 @@ public class LoginManager: NSObject {
             loginResult = self.validateLoginResult(data: data)
             
             if loginResult {
-                
+                Store.add(domain: self.associatedDomain, account: userName, password: password, completion: { (error) in })
                 CollectionsSingleton.shared.loadCollectionsData { _ in
                     NotificationCenter.default.post(name: .productsLoaded, object: nil)
                 }

@@ -107,10 +107,10 @@ public class LoginManager: NSObject {
     
     func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
         var storedCredential: SharedWebCredentials.Credential?
-//        Store.get { (credential, error) in
+        Store.get { (credential, error) in
 //            guard let credential = credential else { return }
 //            storedCredential = credential
-//        }
+        }
         return storedCredential
     }
     

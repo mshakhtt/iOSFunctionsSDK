@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SharedWebCredentials
 
 public class IOSFunctions {
     

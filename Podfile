@@ -12,5 +12,6 @@ target 'iOSfunctions' do
   pod 'RxCocoa'
   pod 'RxDataSources'
   pod 'Connectivity'
-  
+  pod 'SharedWebCredentials', :git => 'https://github.com/ostapvisualise/SharedWebCredentials.git'  
+
 end

@@ -95,7 +95,7 @@ public class LoginManager: NSObject {
             loginResult = self.validateLoginResult(data: data)
             
             if loginResult {
-                Store.add(domain: self.associatedDomain, account: userName, password: password, completion: { (error) in })
+                //      Store.add(domain: self.associatedDomain, account: userName, password: password, completion: { (error) in })
                 CollectionsSingleton.shared.loadCollectionsData { _ in
                     NotificationCenter.default.post(name: .productsLoaded, object: nil)
                 }
@@ -105,14 +105,14 @@ public class LoginManager: NSObject {
         }
     }
     
-    func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
-        var storedCredential: SharedWebCredentials.Credential?
-        Store.get { (credential, error) in
-            guard let credential = credential else { return }
-            storedCredential = credential
-        }
-        return storedCredential
-    }
+//    func retrieveStoredCredentials() -> SharedWebCredentials.Credential? {
+//        var storedCredential: SharedWebCredentials.Credential?
+//        Store.get { (credential, error) in
+//            guard let credential = credential else { return }
+//            storedCredential = credential
+//        }
+//        return storedCredential
+//    }
     
     private func validateLoginResult(data: Data) -> Bool {
         let endCustomerRole = "end_customer"

@@ -136,5 +136,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxDataSources'
   spec.dependency 'Connectivity'
   spec.dependency 'AFNetworking'
+  spec.dependency 'SharedWebCredentials'
 
 end
